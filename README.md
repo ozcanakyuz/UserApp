@@ -1,4 +1,4 @@
-# 🌟 **UserApp** 🌟
+# 🌟 **UserApp** 🌟 [en]
 
 Welcome to **UserApp**! 🚀 An **ASP.NET Core MVC** project powered by the **Identity Framework**, designed to manage user authentication. This app provides all the essential features you need for handling user accounts, including **registration**, **login**, **password reset**, and **logout**. Perfect for building secure web applications! 🔒
 
@@ -55,3 +55,63 @@ This project leverages the following technologies:
 ## 📜 License
 
 This project is licensed under the **MIT License**. For more details, check out the [LICENSE](LICENSE) file. 📑
+
+-----------------------------------------------------------------------------------------------------------------
+
+# 🌟 **UserApp** 🌟 [tr]
+
+**UserApp**'e hoş geldiniz! 🚀 **ASP.NET Core MVC** projesi, **Identity Framework** kullanarak kullanıcı kimlik doğrulamasını yönetmek için tasarlandı. Bu uygulama, **kayıt**, **giriş yapma**, **şifre sıfırlama** ve **çıkış yapma** gibi temel özellikleri sunuyor. Güvenli web uygulamaları oluşturmak için mükemmel bir temel! 🔒
+
+## 🚀 Özellikler
+
+- **📝 Kullanıcı Kaydı**: Yeni kullanıcılar, güvenli şifre doğrulaması ve şifreleme ile hesap oluşturabilir!
+- **🔑 Giriş Yapma**: Kayıtlı kullanıcılar, kullanıcı adı ve şifre ile kolayca giriş yapabilir.
+- **🔄 Şifre Yenileme**: Şifrenizi mi unuttunuz? Sorun değil! Kullanıcılar, güvenli bir bağlantı ile şifrelerini sıfırlayabilir. 📧
+- **🚪 Çıkış Yapma**: Kişisel verilerinizi korumak için güvenli bir şekilde çıkış yapabilirsiniz. 🛡️
+
+## ⚙️ Gereksinimler
+
+**UserApp**'i çalıştırmak için aşağıdaki araçlara ihtiyacınız olacak:
+
+- **.NET Core 6.0** veya daha yeni bir sürüm ⚡
+- Visual Studio (veya tercih ettiğiniz bir IDE) 🖥️
+- **SQL Server** (veya Identity verilerini saklamak için uyumlu bir veritabanı sağlayıcısı) 🗃️
+
+## 🛠️ Kurulum
+
+Başlamak için bu basit adımları takip edebilirsiniz:
+
+1. **Repository'yi** yerel bilgisayarınıza klonlayın:
+    ```bash
+    git clone https://github.com/ozcanakyuz/UserApp.git
+    ```
+
+2. **NuGet paketlerini geri yükleyin**:
+    ```bash
+    dotnet restore
+    ```
+
+3. **Migrasyonları uygulayarak veritabanını oluşturun**:
+    ```bash
+    dotnet ef database update
+    ```
+
+4. **Uygulamayı çalıştırın** ve özellikleri keşfedin:
+    ```bash
+    dotnet run
+    ```
+
+Tüm adımlar tamamlandıktan sonra uygulamayı yerel olarak çalıştırabilirsiniz! 🎉
+
+## 💻 Kullanılan Teknolojiler
+
+Bu projede aşağıdaki teknolojiler kullanılmıştır:
+
+- **ASP.NET Core MVC**: Dinamik web sayfaları oluşturmak için MVC mimarisini kullanan güçlü bir framework.
+- **Identity Framework**: Kullanıcı kimlik doğrulama işlemlerini, kayıt, giriş yapma ve şifre yönetimini basit hale getirir.
+- **Entity Framework Core**: Veritabanı ile etkileşimi kolaylaştıran bir ORM.
+- **SQL Server** (veya diğer veritabanı sağlayıcıları): Kullanıcı verilerini saklamak ve güvenli bir şekilde kimlik doğrulaması yapmak için kullanılır. 🛠️
+
+## 📜 Lisans
+
+Bu proje **MIT Lisansı** ile lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına göz atabilirsiniz. 📑
